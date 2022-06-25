@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding:0px;
+}
+
+.top-logo {
+    height: 20px;
+    position: relative;
+    top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container {
+
+    display: grid;
+    grid-template-columns: 6px,1fr;
+    max-width: 80vw;
+    margin: auto;
+    height: 920px;
+     
+}
+
+.firstbox h3 {
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.first-text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.p1 {
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+ #btn1 {
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(224, 24, 67);
+    height: 35px;
+    border-radius: 25px ;
+    width: 200px;
+    border-color: rgb(224, 24, 67);
+}
+
+.firstbox {
+    background-image: url("bg-hero-desktop.svg");
+    border: solid whitesmoke;
+    height: 60vh;
+    padding: 40px;
+    
+}
+
+#btn2 {
+    color: black;
+    position: absolute;
+    left: 1050px;
+    height: 35px;
+    width: 120px;
+    border-radius: 25px;
+    border-color: whitesmoke;
+
+}
+
+.first-img {
+    
+    height: 35vh;
+    float:right;
+    margin-top: 60px;
+}
+
+.second-img {
+    height: 30vh;
+    position: relative;
+    left: 120px;
+}
+
+.second-content {
+    position: relative;
+    right: 100px;
+}
+
+.secondbox {
+    border: solid whitesmoke;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 900px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.third-img {
+    height: 30vh;
+    position: relative;
+    right: 90px;
+}
+
+.third-content {
+    position: relative;
+    left: 90px;
+}
+
+.thirdbox {
+    border: solid whitesmoke;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 900px;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.forthbox {
+    border: solid whitesmoke;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 900px;
+    margin-left: 228px;
+    height: 40vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.forth-img {
+    height: 30vh;
+    position: relative;
+    left: 450px;
+}
+
+.forth-content {
+    position: relative;
+    right: 330px;
+}
+
+.fifthbox {
+    border: solid black;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 500px;
+    margin-left: 430px;
+    height: 20vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+    border-color: whitesmoke;
+
+}
+
+.content {
+    text-align: center;
+}
+
+.btn3 {
+    margin-top: 15px;
+    height: 35px;
+    width: 150px;
+    border-radius: 25px;
+    background-color: rgb(224, 24, 67);
+    border-color: white;
+}
+
+.sixthbox {
+    background-color: black;
+    height: 60vh;
+    padding: 40px;
+    position: relative;
+    top: -50px;
+    z-index: -1;
+    color: white;
+}
+
+.logo2 {
+    height: 20px;
+    filter: grayscale(100%);
+    filter: brightness(0%);
+    filter: invert(98%) sepia(100%) saturate(7%) hue-rotate(117deg) brightness(101%) contrast(102%);
+}   
+
+.location {
+   margin-top: 20px;
+   filter: grayscale(100%);
+   filter: brightness(0%);
+   filter: invert(98%) sepia(100%) saturate(7%) hue-rotate(117deg) brightness(101%) contrast(102%);
+}
+
+.para {
+    margin-left: 40px;
+    display:flex;
+    margin-top: -20px;
+}
+
+.phone-logo {
+    height: 24px;
+    position: relative;
+    top: 30px;
+    filter: grayscale(100%);
+    filter: brightness(0%);
+    filter: invert(98%) sepia(100%) saturate(7%) hue-rotate(117deg) brightness(101%) contrast(102%);
+}
+
+.phone-number {
+    margin-left: 40px;
+}
+
+.email-logo {
+    height: 24px;
+    filter: grayscale(100%);
+    filter: brightness(0%);
+    filter: invert(98%) sepia(100%) saturate(7%) hue-rotate(117deg) brightness(101%) contrast(102%);
+    margin-top: 50px;
+}
+
+.email-para {
+    position: relative;
+    left: 40px;
+    bottom: 30px;
+}
+
+.second-col {
+    color: white;
+    margin-left: 500px;
+    margin-top: -200px;
+
+
+}
+
+.third-col {
+    color: white;
+    margin-left: 700px;
+    margin-top: -90px;
+}
+
+.forth-col {
+    margin-left: 1000px;
+    margin-top: -90px;
+    filter: grayscale(100%);
+    filter: brightness(0%);
+    filter: invert(98%) sepia(100%) saturate(7%) hue-rotate(117deg) brightness(101%) contrast(102%);
+    
+}
+
+.foot {
+    font-size: 12px;
+    margin-left: 1000px;
+    color: white;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 400px) {
+    .firstbox{
+        display: flex;
+        flex-direction: column;
+        height: 270px;
+        width: 250px;
+    }
+}
